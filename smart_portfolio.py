@@ -19,12 +19,12 @@ import matplotlib.pyplot as plt
 random.seed(10)
 
 #https://financialmodelingprep.com/api/v3/market-capitalization/AAPL?apikey=YOUR_API_KEY
-api_key = "48ac1e227536f2b7eb100c88841ff2cd"
+
 api_url = "https://financialmodelingprep.com/api/v3/market-capitalization/"
 
 
 
-def get_marketcap(symbol):
+def get_marketcap(symbol, apu_key):
     '''
     
     Parameters
