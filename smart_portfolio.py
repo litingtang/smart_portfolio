@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 21 15:30:55 2022
 
-@author: litingtang
-"""
 import yfinance as yf
 import pandas as pd
 import numpy as np
